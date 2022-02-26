@@ -28,6 +28,9 @@ pip install -r im/requirements.txt
 cd im
 uvicorn main:app
 
+You can view/test the API via:
+http://127.0.0.1:8000/docs
+
 == Productionise ==
 * Add Authentication
 * Switch to a DB like Postgres
