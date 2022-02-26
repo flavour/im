@@ -1,0 +1,8 @@
+git+https://github.com/flavour/uvicorn@e5f2c26#egg=uvicorn
+git+https://github.com/flavour/starlette@0.17#egg=starlette
+git+https://github.com/flavour/fastapi@672a46d#egg=fastapi
+#fastapi>=0.74.1
+#pydantic>=1.9.0
+sqlalchemy>=1.4.31
+#starlette>=0.17.1
+#uvicorn[standard]>=0.17.5
