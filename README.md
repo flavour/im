@@ -19,11 +19,11 @@ Response codes:
 
 Wants a modern Python (tested on 3.9)  
 Clone this repo:  
-`git clone https://github.com/flavour/im`
+`git clone https://github.com/flavour/im`  
 Setup a venv:  
-`python -m venv venv_im`
-`source venv_im/bin/activate`
-`pip install -r requirements.txt`
+`python -m venv venv_im`  
+`source venv_im/bin/activate`  
+`pip install -r requirements.txt`  
 
 ## Run
 
@@ -36,5 +36,5 @@ http://127.0.0.1:8000/docs
 
 * Add Authentication
 * Switch to a DB like Postgres
-* Front uivcorn with nginx and gunicorn -w 4 -k uvicorn.workers.UvicornWorker
+* Front uvicorn with nginx (inc SSL via LetsEncrypt) and `gunicorn -w 4 -k uvicorn.workers.UvicornWorker`
 * Try to get modified version of framework components integrated upstream
