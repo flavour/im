@@ -35,6 +35,7 @@ http://127.0.0.1:8000/docs
 ## Productionise
 
 * Add Authentication
-* Switch to a DB like Postgres
+* Switch to a DB like Postgres, or maybe Redis for such a simple data model
 * Front uvicorn with nginx (inc SSL via LetsEncrypt) and `gunicorn -w 4 -k uvicorn.workers.UvicornWorker`
 * Try to get modified version of framework components integrated upstream
+* Add Test suite
