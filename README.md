@@ -39,3 +39,5 @@ http://127.0.0.1:8000/docs
 * Front uvicorn with nginx (inc SSL via LetsEncrypt) and `gunicorn -w 4 -k uvicorn.workers.UvicornWorker`
 * Try to get modified version of framework components integrated upstream
 * Add Test suite
+* Convert into a Package, so we can just install this with pip
+* Dockerfile
